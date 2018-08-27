@@ -18,6 +18,8 @@ python3 video_sum.py video_file.mp4 output_graph.pb alphabet.txt
 ```
 where ```output_graph.pb``` and ```alphabet.txt``` are the speech-to-text model and alphabet database of DeepSpeech.<br />
 
+Result would be in the ```output_video``` and ```output_text``` folder.<br />
+
 To get more information on arguments, run the following command:
 ```
 python3 video_sum.py -h
