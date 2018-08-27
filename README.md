@@ -12,13 +12,13 @@ This repo contains python code for video summarization. You would get video chun
 
 ## Instruction
 
-Copy the script into the LexRank folder(same level of bbc folder in the LexRank folder), then try with default settings by running the following command:
+Copy the script under the LexRank folder(same level of bbc folder in the LexRank folder), then try with default settings by running the following command:
 ```
 python3 video_sum.py video_file.mp4 output_graph.pb alphabet.txt
 ```
 where ```output_graph.pb``` and ```alphabet.txt``` are the speech-to-text model and alphabet database of DeepSpeech.<br />
 
-Result would be in the ```output_video``` and ```output_text``` folder.<br />
+Result would be in the ```output_video``` and ```output_text``` folder under the LexRank folder.<br />
 
 To get more information on arguments, run the following command:
 ```
